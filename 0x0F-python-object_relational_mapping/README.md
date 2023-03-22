@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 0x0F. Python - Object-relational mapping
 0 - task Run the Python script to list all the states in the states table:
 ./0-select_states.py root root hbtn_0e_0_usa
@@ -703,3 +704,8 @@ GitHub repository: alx-higher_level_programming
 Directory: 0x0F-python-object_relational_mapping
 File: 102-relationship_cities_states_list.py
 
+=======
+0x0F. Python - Object-relational mapping
+0 - task Run the Python script to list all the states in the states table:
+./0-select_states.py root root hbtn_0e_0_usa
+>>>>>>> 235c45232620011bf37c9ea0a840aab7fedfe9e2
