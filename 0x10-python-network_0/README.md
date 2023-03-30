@@ -217,4 +217,5 @@ GitHub repository: alx-higher_level_programming
 Directory: 0x10-python-network_0
 File: 102-catch_me.sh
    
-
+./101-post_json.sh 0.0.0.0:5000/route_json test/my_json_0 ; echo ""
+./101-post_json.sh 0.0.0.0:5000/route_json test/my_json_2 ; echo ""

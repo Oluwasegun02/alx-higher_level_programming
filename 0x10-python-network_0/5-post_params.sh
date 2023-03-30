@@ -1,10 +1,3 @@
 #!/bin/bash
-url=$1
-email="test@gmail.com"
-subject="I will always be here for PLD"
-
-curl -s -X POST "$url" \
-     -d "email=$email" \
-     -d "subject=$subject" \
-     -o response.txt
-
+#Bash script that takes in a URL, sends a POST request to the passed URL
+curl -s -X POST -d "email=test@gmail.com" -d "subject=I will always be here for PLD" "$1"
