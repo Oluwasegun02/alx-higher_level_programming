@@ -11,8 +11,8 @@ if __name__ == "__main__":
     passwd = sys.argv[2]
     data_res = requests.get(url, auth=(user, passwd))
 
-    try:
-        data_json = data_res.json()
-        print(data_json["id"])
-    except Exception:
-        print("None")
+    if data_res.status_code == 200:
+        user_data = data_res.json()
+        print(f"{user_data['id']}")
+    else:
+        print(f"{data_res.status_code}")

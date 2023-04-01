@@ -10,6 +10,7 @@ if __name__ == "__main__":
         sys.argv[2], sys.argv[1])
 
     m = requests.get(url)
+    m.raise_for_status()
     commits = m.json()
     try:
         for i in range(10):
