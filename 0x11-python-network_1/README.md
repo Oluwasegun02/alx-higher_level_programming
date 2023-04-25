@@ -31,7 +31,7 @@ You must use the packages urllib and sys
 You are not allowed to import packages other than urllib and sys
 You don’t need to check arguments passed to the script (number or type)
 You must use the with statement
-(./2-post_email.py http://0.0.0.0:5000/post_email hr@holbertonschool.com)
+(./2-post_email.py http://0.0.0.0:5000/post_email hr@holbertonschool.com) = 8d19b5d1-41ec-45c4-bc88-090874d0d457
 3. Error code #0
 ./3-error_code.py http://0.0.0.0:5000
 ./3-error_code.py http://0.0.0.0:5000/status_401
