@@ -1,4 +1,14 @@
 # 0x14. Javascript - Web scraping
+guide to this project
+$ curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+$ sudo apt-get install -y nodejs
+$ sudo npm install semistandard --global
+$ sudo npm install request --global
+$ export NODE_PATH=/usr/lib/node_modules
+npm install request
+npm install --save request
+npm install
+install yern http etc
 
 This project involved practicing file I/O on Node.js and using the NPM request
 framework to interact with both the [Star Wars](https://swapi.co/) and
